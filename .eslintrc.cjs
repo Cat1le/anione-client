@@ -12,7 +12,8 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-	'no-bitwise': 'off'
+	'no-bitwise': 'off',
+	'capitalized-comments': 'off'
   },
-  ignorePatterns: '*.cjs'
+  ignorePatterns: ['*.cjs', '*.config.js', '*.config.ts']
 }
