@@ -20,7 +20,7 @@ function Profile() {
 			<div className='rounded-xl p-2 flex items-center' style={{backgroundColor: color}}>
 				<img src={ava} className='h-10 w-10 rounded-full'/>
 				<span className='text-white ml-2 mr-4 mb-1' style={{fontSize: 20}}>
-				noki3138noki3138noki3138
+					noki3138
 				</span>
 			</div>
 		</Link>

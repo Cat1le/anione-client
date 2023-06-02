@@ -1,7 +1,7 @@
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Auth from './pages/Auth';
 
-function App() {
+const App = () => {
 	const router = createBrowserRouter([
 		{
 			element: <Auth/>,
@@ -10,6 +10,6 @@ function App() {
 	]);
 
 	return <RouterProvider router={router} />;
-}
+};
 
 export default App;
